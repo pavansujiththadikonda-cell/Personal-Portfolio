@@ -227,33 +227,18 @@ button:hover,
 }
 
 
-/* Crimson Spray Cursor Effect */
-
-.smoke-particle {
-    position: fixed;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    pointer-events: none;
-    z-index: 9999;
-    background: radial-gradient(
-        circle,
-        rgba(255, 20, 60, 0.65) 0%,
-        rgba(220, 0, 45, 0.3) 40%,
-        transparent 75%
-    );
-    filter: blur(7px);
-    transform: translate(-50%, -50%);
-    animation: sprayFade 1s ease-out forwards;
+.linkedin-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #0077b5;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
 }
 
-@keyframes sprayFade {
-    0% {
-        opacity: 0.9;
-        transform: translate(-50%, -50%) scale(0.6);
-    }
-    100% {
-        opacity: 0;
-        transform: translate(-50%, -50%) scale(3.5);
-    }
+.linkedin-btn:hover {
+    background-color: #005582;
+    transform: scale(1.05);
 }
