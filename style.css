@@ -47,12 +47,17 @@ nav a:hover {
 }
 
 /* Home Section */
+
 .hero {
     min-height: 85vh;
     display: flex;
     align-items: center;
     padding: 60px 10%;
+    background:
+        linear-gradient(rgba(10, 10, 30, 0.78), rgba(10, 10, 30, 0.78)),
+        url("https://images.unsplash.com/photo-1512820790803-83ca734da794?w=1600") center/cover no-repeat;
 }
+
 
 .hero-content {
     max-width: 650px;
